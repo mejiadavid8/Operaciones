@@ -19,10 +19,8 @@ public class Operaciones {
     
     public static void main(String[] args) {
         // TODO code application logic here
-        double numero1=0;
-        double numero2=0;
+        double numero1=0,  numero2=0, operacion=0;
         int opcion=0;
-        double operacion=0;
         System.out.println("Ingrese un numero: ");
         numero1=sc.nextDouble();
         System.out.println("Ingrese otro numero: ");
