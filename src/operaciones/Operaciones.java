@@ -42,6 +42,10 @@ public class Operaciones {
                 operacion = numero1-numero2;
                 System.out.println("El resultado de la operacion es: "+operacion);
                 break;
+            case 3: 
+                operacion = numero1*numero2;
+                System.out.println("El resultado de la operacion es: "+operacion);
+                break;
                 
         }
         
