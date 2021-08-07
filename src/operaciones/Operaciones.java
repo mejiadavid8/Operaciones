@@ -30,6 +30,7 @@ public class Operaciones {
         System.out.println("2. Restar");
         System.out.println("3. Mutiplicar");
         System.out.println("4. Dividir (primer numero entre segundo)");
+        System.out.println("5. Modulo");
         opcion = sc.nextInt();
         switch(opcion){
             case 1: 
@@ -46,6 +47,10 @@ public class Operaciones {
                 break;
             case 4: 
                 operacion = numero1/numero2;
+                System.out.println("El resultado de la operacion es: "+operacion);
+                break;
+            case 5:
+                operacion = numero1%numero2;
                 System.out.println("El resultado de la operacion es: "+operacion);
                 break;
                 
